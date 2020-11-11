@@ -1,0 +1,31 @@
+#container{
+    width: 71%;
+margin-left: 21%;
+}
+
+#header{
+   
+    width: 68%;
+    display: flex;
+  /* align-items por defecto tiene el valor `stretch` */
+  align-items: start;
+}
+
+h1{
+    float: left;
+}
+
+#brand{
+    width: 60%;
+}
+
+#searchBox{
+    margin-top: 4%;
+    width: 37%;
+}
+
+#menu,ul,li{
+    width: 68%;
+    display: flex;
+    align-items: start;
+}
