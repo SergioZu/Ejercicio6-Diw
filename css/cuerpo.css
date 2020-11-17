@@ -1,6 +1,6 @@
 #container{
     width: 71%;
-margin-left: 21%;
+    margin-left: 21%;
 }
 
 #header{
@@ -23,9 +23,9 @@ h1 a{
 
 #searchBox{
     background-color: lawngreen;
-    width: 24%;
+    width: 200%;
+    padding-top:2px;
     margin-left: 12%;
-    padding: 2%;
     margin-top: 2%;
 }
 
@@ -95,7 +95,7 @@ padding: 10%;
 
 footer{
     background-color: yellow;
-    margin-top: 4%;
+    margin-top: 15%;
     width: 87%;
     padding: 1%;
 
