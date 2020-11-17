@@ -100,3 +100,19 @@ footer{
     padding: 1%;
 
 }
+
+#rightsidebar ul{
+    list-style: none;
+}
+
+#rightsidebar li::before{
+    content: url(../imagenes/tick.png);
+}
+
+#leftsidebar ul{
+    list-style: none;
+}
+
+#leftsidebar li::before{
+    content: url(../imagenes/arrow.png);
+}
