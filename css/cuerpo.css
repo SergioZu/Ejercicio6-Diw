@@ -15,6 +15,7 @@ h1 a{
     float: left;
     text-decoration: none;
     font-size: 175%;
+    width: 234%;
 }
 
 #brand{
@@ -23,10 +24,10 @@ h1 a{
 
 #searchBox{
     background-color: lawngreen;
-    width: 200%;
-    padding-top:2px;
-    margin-left: 12%;
-    margin-top: 2%;
+width: 35%;
+padding: 1%;
+margin-left: 35%;
+margin-top: 3%;
 }
 
 #menu{
@@ -70,7 +71,10 @@ h1 a{
     margin-top: 2%;
     border: 1px solid black;
     float: left;
-    width: 44%;
+    width: 39%;
+    margin-right: 5%;
+    border-radius: 5px;
+    border: solid lawngreen;
 }
 
 #leftsidebar h3{
@@ -81,21 +85,20 @@ h1 a{
     margin-top: 2%;
     border: 1px solid black;
     float: left;
-    width: 45%;
+    width: 44%;
+    border-radius: 5px;
+    border: solid lawngreen;
 }
 
 #rightsidebar h3{
     font-size: 300%;
 }
 
-.clear{
-    width: 69%;
-padding: 10%;
-}
+
 
 footer{
     background-color: yellow;
-    margin-top: 15%;
+    margin-top: 32%;
     width: 87%;
     padding: 1%;
 
