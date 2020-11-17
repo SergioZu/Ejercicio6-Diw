@@ -23,18 +23,22 @@ h1 a{
 }
 
 #searchBox{
-    background-color: lawngreen;
-width: 35%;
-padding: 1%;
-margin-left: 35%;
-margin-top: 3%;
+    background-image: linear-gradient(green, yellow);
+    width: 35%;
+    padding: 1%;
+    margin-left: 35%;
+    margin-top: 3%;
+}
+
+.text{
+    background-image: url(../imagenes/search.png);
 }
 
 #menu{
     padding: 1%;
     width: 87%;
-    font-size: 190%;
-   
+    font-size: 150%;
+    color: rgb(136, 16, 167);
     background-color: rgb(231, 229, 67);
     margin-bottom: 2%;
     margin-top: 1%;
@@ -43,6 +47,15 @@ margin-top: 3%;
 #menu a{
     color: rgb(136, 16, 167);
     text-decoration: none;
+}
+
+#menu ul li a:hover{
+    font-size: 190%;
+    color: black;
+}
+
+#menu ul li a{
+    transition: font-size 1s ease;
 }
 
 
@@ -66,6 +79,16 @@ margin-top: 3%;
     font-size: 178%;
 }
 
+
+.sidebar ul li a{
+    transition: font-size 1s ease;
+}
+
+.sidebar ul li a:hover{
+   
+    font-size: 190%;
+    color: red;
+}
 
 #leftsidebar{
     margin-top: 2%;
@@ -97,10 +120,12 @@ margin-top: 3%;
 
 
 footer{
-    background-color: yellow;
-    margin-top: 32%;
+    background-image: linear-gradient(rgb(27, 235, 27), yellow);
+    margin-top: 40%;
     width: 87%;
     padding: 1%;
+    text-align: center;
+    font-size: 164%;
 
 }
 
